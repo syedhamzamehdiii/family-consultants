@@ -1,0 +1,387 @@
+[
+  {
+    "name": "University of Toronto",
+    "domain": "utoronto.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Oxford",
+    "domain": "ox.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "McGill University",
+    "domain": "mcgill.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Cambridge",
+    "domain": "cam.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of British Columbia",
+    "domain": "ubc.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "Imperial College London",
+    "domain": "imperial.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Alberta",
+    "domain": "ualberta.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University College London",
+    "domain": "ucl.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Waterloo",
+    "domain": "uwaterloo.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "London School of Economics",
+    "domain": "lse.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "McMaster University",
+    "domain": "mcmaster.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "King's College London",
+    "domain": "kcl.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Université de Montréal",
+    "domain": "umontreal.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Edinburgh",
+    "domain": "ed.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Ottawa",
+    "domain": "uottawa.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Manchester",
+    "domain": "manchester.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Western University",
+    "domain": "uwo.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Bristol",
+    "domain": "bristol.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Calgary",
+    "domain": "ucalgary.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Warwick",
+    "domain": "warwick.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Queen's University",
+    "domain": "queensu.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Glasgow",
+    "domain": "gla.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Simon Fraser University",
+    "domain": "sfu.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Birmingham",
+    "domain": "birmingham.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Dalhousie University",
+    "domain": "dal.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Leeds",
+    "domain": "leeds.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Victoria",
+    "domain": "uvic.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Sheffield",
+    "domain": "sheffield.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "York University",
+    "domain": "yorku.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Nottingham",
+    "domain": "nottingham.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Carleton University",
+    "domain": "carleton.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Southampton",
+    "domain": "southampton.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Concordia University",
+    "domain": "concordia.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "Durham University",
+    "domain": "durham.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Manitoba",
+    "domain": "umanitoba.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of St Andrews",
+    "domain": "st-andrews.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Saskatchewan",
+    "domain": "usask.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Bath",
+    "domain": "bath.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Guelph",
+    "domain": "uoguelph.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of York",
+    "domain": "york.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Toronto Metropolitan University",
+    "domain": "torontomu.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Exeter",
+    "domain": "exeter.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Wilfrid Laurier University",
+    "domain": "wlu.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "Cardiff University",
+    "domain": "cardiff.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Windsor",
+    "domain": "uwindsor.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "Queen Mary University of London",
+    "domain": "qmul.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Memorial University",
+    "domain": "mun.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Liverpool",
+    "domain": "liverpool.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Université Laval",
+    "domain": "ulaval.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "Lancaster University",
+    "domain": "lancaster.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of New Brunswick",
+    "domain": "unb.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Aberdeen",
+    "domain": "abdn.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Brock University",
+    "domain": "brocku.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "Newcastle University",
+    "domain": "ncl.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Trent University",
+    "domain": "trentu.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Reading",
+    "domain": "reading.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Lakehead University",
+    "domain": "lakeheadu.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "Loughborough University",
+    "domain": "lboro.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Regina",
+    "domain": "uregina.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Sussex",
+    "domain": "sussex.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Université de Sherbrooke",
+    "domain": "usherbrooke.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Surrey",
+    "domain": "surrey.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Lethbridge",
+    "domain": "uleth.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Strathclyde",
+    "domain": "strath.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Acadia University",
+    "domain": "acadiau.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "Heriot-Watt University",
+    "domain": "hw.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Mount Allison University",
+    "domain": "mta.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Leicester",
+    "domain": "le.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Northern British Columbia",
+    "domain": "unbc.ca",
+    "country": "Canada"
+  },
+  {
+    "name": "Aston University",
+    "domain": "aston.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of East Anglia",
+    "domain": "uea.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Kent",
+    "domain": "kent.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Swansea University",
+    "domain": "swansea.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Queen's University Belfast",
+    "domain": "qub.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Dundee",
+    "domain": "dundee.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "Coventry University",
+    "domain": "coventry.ac.uk",
+    "country": "UK"
+  },
+  {
+    "name": "University of Stirling",
+    "domain": "stir.ac.uk",
+    "country": "UK"
+  }
+]
