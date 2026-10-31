@@ -5,7 +5,7 @@ export const WHATSAPP_NUMBER = '923252900345'
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`
 
 // Not shown on the site — only used as the delivery inbox for the booking form.
-export const BOOKING_EMAIL = 'waseemazam359@gmail.com'
+export const BOOKING_EMAIL = 'mehihamza1@gmail.com'
 
 export const OFFICE = {
   title: 'Karachi — Head Office',
