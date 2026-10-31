@@ -1,19 +1,13 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
-import {
-  EMAIL,
-  OFFICE,
-  PHONES,
-  PRIMARY_PHONE,
-  WHATSAPP_URL,
-} from '../data/contact'
+import { OFFICE, PRIMARY_PHONE, WHATSAPP_URL } from '../data/contact'
 import { SERVICES } from '../data/services'
+import { usePageMeta } from '../seo/usePageMeta'
 import { WhatsAppFloat } from './WhatsAppFloat'
 import { UniversityMarquee } from './UniversityMarquee'
 import {
   IconChevron,
   IconClose,
-  IconMail,
   IconPhone,
   IconPin,
   IconUp,
@@ -44,6 +38,7 @@ export function SiteShell() {
   const [showTop, setShowTop] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation()
+  usePageMeta(location.pathname)
 
   useEffect(() => {
     const onScroll = () => {
@@ -96,13 +91,7 @@ export function SiteShell() {
             </span>
             <span>
               <IconPhone />
-              <a href={`tel:${PHONES[0].tel}`}>{PHONES[0].display}</a>
-              <span className="sep">·</span>
-              <a href={`tel:${PHONES[1].tel}`}>{PHONES[1].display}</a>
-            </span>
-            <span>
-              <IconMail />
-              <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+              <a href={`tel:${PRIMARY_PHONE.tel}`}>{PRIMARY_PHONE.display}</a>
             </span>
           </div>
           <div className="topbar-social">
@@ -116,9 +105,6 @@ export function SiteShell() {
             </a>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
               <IconWhatsApp />
-            </a>
-            <a href={`mailto:${EMAIL}`} aria-label="Email">
-              <IconMail />
             </a>
             <a href={`tel:${PRIMARY_PHONE.tel}`} aria-label="Call">
               <IconPhone />
@@ -207,7 +193,6 @@ export function SiteShell() {
                 <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                   <IconWhatsApp filled />
                 </a>
-                <a href={`mailto:${EMAIL}`} aria-label="Email"><IconMail /></a>
                 <a href={`tel:${PRIMARY_PHONE.tel}`} aria-label="Phone"><IconPhone /></a>
               </div>
             </div>
@@ -230,11 +215,8 @@ export function SiteShell() {
             <div className="footer-col">
               <h5>Karachi Office</h5>
               <ul>
-                <li>18-D, Nishat Commercial</li>
-                <li>DHA Phase 6, Karachi</li>
-                <li><a href={`tel:${PHONES[0].tel}`}>{PHONES[0].display}</a></li>
-                <li><a href={`tel:${PHONES[1].tel}`}>{PHONES[1].display}</a></li>
-                <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
+                <li>{OFFICE.address}</li>
+                <li><a href={`tel:${PRIMARY_PHONE.tel}`}>{PRIMARY_PHONE.display}</a></li>
               </ul>
             </div>
           </div>

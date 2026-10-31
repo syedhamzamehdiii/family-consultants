@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import {
   BOOKING_EMAIL,
   OFFICE,
-  PHONES,
   PRIMARY_PHONE,
   WHATSAPP_URL,
 } from '../data/contact'
@@ -178,7 +177,7 @@ export default function HomePage() {
               We make the <em>visa process</em> clearer
             </h1>
             <p className="hero-lead">
-              Canada visit visas, study & work permits, Express Entry, PNP, and family sponsorship — handled by one licensed team from consultation to landing.
+              Family Consultants, DHA Phase 6 Karachi: Canada visit visas, study & work permits, Express Entry, PNP, family sponsorship and UK study — handled by one licensed team from consultation to landing.
             </p>
             <div className="hero-actions">
               <a href="#booking" className="btn btn-primary">
@@ -480,7 +479,6 @@ export default function HomePage() {
           <h2>Ready to talk about your Canadian visa? We’re one call or WhatsApp away.</h2>
           <div className="contact-actions">
             <a href={`tel:${PRIMARY_PHONE.tel}`} className="btn btn-light">Call {PRIMARY_PHONE.display}</a>
-            <a href={`tel:${PHONES[1].tel}`} className="btn btn-ghost">Call {PHONES[1].display}</a>
             <a href={WHATSAPP_URL} className="btn btn-wa" target="_blank" rel="noopener noreferrer">
               <IconWhatsApp filled /> WhatsApp
             </a>

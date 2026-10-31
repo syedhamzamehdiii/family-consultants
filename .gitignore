@@ -23,3 +23,8 @@ _archive
 *.njsproj
 *.sln
 *.sw?
+
+# Local tool state
+.netlify
+.wrangler
+vite.config.js.timestamp-*
